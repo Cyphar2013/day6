@@ -1,0 +1,36 @@
+.main{
+    max-width: 900px ;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+    place-items: center;
+}
+
+@media screen and (min-width: 900px) {
+    .main{
+       grid-template-columns: repeat(2, 1fr);
+
+    }
+.content {
+    margin: 0;
+    Padding: 20px;
+    -ms-text-size-adjust: auto;
+}
+
+
+/* .Div1 {
+    margin: 40px;
+}
+.Div2 {
+    margin: 40px;
+}
+.main {
+    align-items: center;
+}
+body {
+    background-color: gold;
+}
+input {
+    font-size: xx-large;
+} */
